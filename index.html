@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Sortowanie pozycyjne</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
+
+    <style>
+      p {
+        text-align: justify;
+
+      }
+
+
+      figcaption {
+        font-style: italic;
+
+        text-align: center;
+        font-size: 70%;
+      }
+
+      body {
+        margin: 4em;
+        margin-left: 30vw;
+        margin-right: 20vw;
+      }
+      img {
+        width: 35vw;
+      }
+
+      button {
+        margin: 6px;
+      }
+      h1 {
+        margin-left: 3vw;
+      }
+
+      .sectionDiv {
+        margin-left: 2em;
+        padding-top: 4em;
+      }
+
+      .tabDiv {
+        padding-left: 5em;
+      }
+    </style>
+
+    <!--<link rel="stylesheet" href="css/styles.css?v=1.0" /> -->
+  </head>
+  <body>
+    <h1>sortowanie pozycyjne (radix sort)</h1>
+    <figure>
+      <img id="intro" src="intro.jpg" alt="obrazek" />
+      <figcaption>"PI"(1998)</figcaption>
+    </figure>
+    <section id="menu" class="sectionDiv">
+      <h3>menu</h3>
+      <ol>
+        <li>omówienie działania algorytmu w filmiku</li>
+        <li>animacja zrobiona w JavaScripcie</li>
+        <li>wytłumaczenie "na liczbach"</li>
+        <li><a href="#radixWords">posortuj słowa</a></li>
+        <li><a href="#cpp">implementacja w C++</a></li>
+        <li><a href="#zlobl">złożoność algorytmu</a></li>
+        <li><a href="#history">historia algorytmu</a></li>
+        <li><a href="#race">wyścig sortowań!</a></li>
+      </ol>
+    </section>
+    <section id="radixWords" class="sectionDiv">
+      <h3>posortuj słowa</h3>
+      <div id="wordBox"> zxba zxce hjki grzyb kek ab abg</div>
+      <input id="newWord" type="text"/><button onclick="addWord()">dodaj słowo</button>
+    <br/>
+      <button onclick="runStringRadix()">POSORTUJ</button>
+      <p>powyższy skrypt wykorzystuje implementację radix sort na całych wyrazach</p>
+    </section>
+    <section id="cpp" class="sectionDiv">
+      <h3>implementacja w C++</h3>
+      <p>
+        <ul>
+        <li><span
+          >funkcja sortuje akurat liczby, ale mogłyby to być równie dobrze
+          wyrazy, daty itd...</span
+        ></li>
+        <li><b>d()</b> - funkcja zwracająca ile cyfr ma najdłuższy element </li>
+        <li><b>sort()</b> - STABILNA<a
+          href="https://pl.wikipedia.org/wiki/Sortowanie#Stabilne"
+          >[*]</a
+        >
+        funkcja sortująca, idealnie powinien to być counting sort lub bucket
+        sort</li>
+        <li> dodatkowo sort musi przyjmować argument według której cyfry ma liczby
+        posortować <br />
+</li>
+        </ul>
+      </p>
+
+      <code>
+        void radix(int arr[]){
+        <div class="tabDiv">
+          for(int i = 0; i < d(arr); i++){<br />
+          <div class="tabDiv">sort(arr,i + 1);</div>
+          }<br />
+        </div>
+        }
+      </code>
+    <div>przykładowe sortowanie(przez zliczanie):</div>
+      <code
+        >vector int countingSort(vector int a, int decimal){
+        <div class="tabDiv">
+          vector int singleArr;<br />
+
+          for(int i = 0; i < a.size(); i++){<br />
+          <div class="tabDiv">
+            singleArr.push_back((a[i]/power(10,decimal-1)) % 10);
+          </div>
+
+          }<br />
+
+          int p_length = max(singleArr) + 1;<br />
+          int p[p_length];<br />
+          int currentIndex = 0;<br />
+          vector int sortedArr(a.size(),0);<br />
+
+          for(int i = 0; i < p_length; i++){<br />
+          <div class="tabDiv">p[i] = 0;</div>
+          }<br />
+
+          for(int i = 0; i < singleArr.size(); i++){
+          <div class="tabDiv">p[singleArr[i]]++;</div>
+
+          }<br />
+
+          for(int i = 0; i < p_length; i++){
+          <div class="tabDiv">currentIndex += p[i]; p[i] = currentIndex;</div>
+          } <br />
+
+          for(int i = a.size() - 1; i >= 0; i--){
+          <div class="tabDiv">
+            sortedArr[p[singleArr[i]] - 1] = a[i]; p[singleArr[i]]--;
+          </div>
+          } <br />
+          return sortedArr; <br />
+        </div>
+
+        }</code
+      >
+    </section>
+    <section id="zlobl" class="sectionDiv">
+      <h3>złożoność obliczeniowa algorytmu  &#949;</h3>
+      <p><div><b>założenie:</b> tablica n elementów (liczb naturalnych, wyrazów itd.), gdzie najdłuższa liczba ma d cyfr</div>
+        <p>by znaleźć złożoność algorytmu pozycyjnego, pierw musimy przeanalizować algorytm sortujący pomocniczy, 
+          u nas jest to sortowanie przez zliczanie</p>
+        <p>sortowanie przez zliczanie wykonuje się dokładnie n * k + b razy, gdzie k to liczba pętli użytych w sortowaniu a 
+        b to największa liczba(u nas b to maksymalnie 9)
+        więc <b>O(n + b)</b></p>
+        <p>zatem nasz radix sort wykona około (n+b) * d operacji, czyli <b>O((n+b)*d) = O(n)</b>, 
+          dla porównania Quick Sort O(nlog<sub>2</sub>n), Selection Sort O(n<sup>2</sup>), Bubble Sort O(n<sup>2</sup>)
+        </p>
+        
+        
+      </p>
+
+
+
+    </section>
+    <section id="history" class="sectionDiv">
+      <h3>historia algorytmu!</h3>
+
+      <p>
+        <p>Historia algorytmu sortowania pozycyjnego sięga <b>1887 roku</b>, do działalności <a href="https://pl.wikipedia.org/wiki/Herman_Hollerith">Hermana Holleritha</a>, amerykańskiego wynalazcy, twórcy maszyny licząco-analitycznej. Radix sort pierw służył do sortowania kart dziurkowanych (1923) </p>
+        <figure><img src="sorter.jpg">
+          <figcaption>maszyna sortująca IBM wykonująca sortowanie pozycyjne na kartach dziurkowanych</figcaption>
+          </figure>
+          <p>
+            Pierwszy algorytm komputerowy został zaimplementowany w 1954 roku na MIT przez <a href="https://en.wikipedia.org/wiki/Harold_H._Seward">Harolda H. Stewarda</a>.
+            Przedtem skomputeryzowane sortowania pozycyjne były odrzucane jako niepraktyczne ze względu na swoją złożoność pamięciową. Steward dodał do algorytmu skan linearny, dzięki któremu znana była wielkość wiaderek używanych do algorytmu.
+            Radix sort jest ściśle sprzężony z innym algorytmem Stewarda - sortowaniem przez zliczanie.
+          </p>
+          <p>
+            W obecnych czasach sortowania pozycyjne są zwykle implementowane tam, gdzie należy posortować coś <b>leksykograficznie</b>, zacząwszy od liczb, poprzez daty, kończąc na całych słowach
+          </p>
+
+      </p>
+
+
+
+
+
+
+    </section>
+
+
+
+    <section id="race" class="sectionDiv">
+      <h3>wyścig sortowań!</h3>
+      <p>
+        na koniec odpowiedź na pytanie: jak nasze sortowanie mierzy się z
+        popularnymi algorytmami?
+      </p>
+
+      <div class="row">
+        <div class="col-12">
+          <button onclick="race(false)" class="btn btn-primary">start</button>
+        </div>
+
+        <div class="col-6">
+          <label for="compareSelectionSort">selection sort</label><br />
+          <canvas id="compareSelectionSort" width="400" height="200"></canvas>
+        </div>
+        <div class="col-6">
+          <label for="compareBubbleSort">bubble sort</label><br />
+          <canvas id="compareBubbleSort" width="400" height="200"></canvas>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="radixFStr.js"></script>
+  </body>
+</html>
