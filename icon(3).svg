@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_76">
+   <text fill="#000000" font-family="serif" font-size="16" id="svg_34" stroke="#ffff00" stroke-width="0" text-anchor="middle" transform="matrix(1.08845, 0, 0, 3.2063, -298.483, -169.878)" x="386.774595" xml:space="preserve" y="122.090016">w końcu brane pod uwagę</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_36" stroke="#7fff00" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="335.433319" xml:space="preserve" y="204.466675">COUNTING SORT</text>
+   <rect fill="#FF0000" height="50.245989" id="svg_53" stroke="#000000" stroke-width="5" width="343.969302" x="241.897347" y="75.366667"/>
+   <text fill="#000000" font-family="serif" font-size="24" font-weight="normal" id="svg_52" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="413.866665" xml:space="preserve" y="103.366667">53</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_51" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="451.866665" xml:space="preserve" y="102.366667">89</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_50" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="369.866665" xml:space="preserve" y="103.366667">150</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_49" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="327.866665" xml:space="preserve" y="103.366667">36</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_48" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="225.866665" xml:space="preserve" y="102.366667">633</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_47" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="275.866665" xml:space="preserve" y="102.366667">233</text>
+   <text fill="#000000" font-family="serif" font-size="16" id="svg_68" stroke="#ffff00" stroke-width="0" text-anchor="middle" transform="matrix(1.20155, 0, 0, 2.63267, -0.948588, -194.049)" x="85.315083" xml:space="preserve" y="179.145802">są cyfry setek</text>
+   <rect fill="#FF0000" height="50.245989" id="svg_75" stroke="#000000" stroke-width="5" width="343.969302" x="241.897345" y="286.120675"/>
+   <text fill="#000000" font-family="serif" font-size="24" font-weight="normal" id="svg_74" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="260.866663" xml:space="preserve" y="252.366667">53</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_73" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="294.866663" xml:space="preserve" y="253.366667">89</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_72" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="336.866663" xml:space="preserve" y="253.366667">150</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_71" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="219.866663" xml:space="preserve" y="252.366667">36</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_70" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="441.866663" xml:space="preserve" y="252.366667">633</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_69" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.23286, 0, 0, 1.39572, -0.812648, -29.8242)" x="388.866663" xml:space="preserve" y="253.366667">233</text>
+  </g>
+  <line fill="none" id="svg_77" stroke="#ffff00" stroke-width="5" x1="257.533325" x2="305.533325" y1="135.866669" y2="224.866669"/>
+  <line fill="none" id="svg_78" stroke="#ffff00" stroke-width="5" x1="324.533325" x2="353.533325" y1="133.866669" y2="221.866669"/>
+  <line fill="none" id="svg_79" stroke="#ffff00" stroke-width="5" x1="399.533325" x2="398.533325" y1="126.866669" y2="218.866669"/>
+  <line fill="none" id="svg_80" stroke="#ffff00" stroke-width="5" x1="436.533325" x2="437.533325" y1="130.866669" y2="220.866669"/>
+  <line fill="none" id="svg_81" stroke="#ffff00" stroke-width="5" x1="498.533325" x2="482.533325" y1="129.866669" y2="227.866669"/>
+  <line fill="none" id="svg_82" stroke="#ffff00" stroke-width="5" x1="548.533325" x2="515.533325" y1="132.866669" y2="222.866669"/>
+  <line fill="none" id="svg_83" stroke="#ffff00" stroke-width="5" x1="251.533325" x2="266.533325" y1="115.866669" y2="118.866669"/>
+  <line fill="none" id="svg_84" stroke="#ffff00" stroke-width="5" x1="308.533325" x2="326.533325" y1="117.866669" y2="117.866669"/>
+  <line fill="none" id="svg_85" stroke="#ffff00" stroke-width="5" x1="375.533325" x2="385.533325" y1="117.866669" y2="117.866669"/>
+  <line fill="none" id="svg_86" stroke="#ffff00" stroke-width="5" x1="432.533325" x2="447.533325" y1="119.866669" y2="120.866669"/>
+  <line fill="none" id="svg_87" stroke="#ffff00" stroke-width="5" x1="482.533325" x2="491.533325" y1="118.866669" y2="119.866669"/>
+  <line fill="none" id="svg_88" stroke="#ffff00" stroke-width="5" x1="531.533325" x2="541.533325" y1="119.866669" y2="118.866669"/>
+  <text fill="#000000" font-family="serif" font-size="16" id="svg_89" stroke="#ffff00" stroke-width="0" text-anchor="middle" x="323.533325" xml:space="preserve" y="383.866669">elementy bez cyfry setek traktowane są jakby miały z przodu 0</text>
+ </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_46">
+   <rect fill="#FF0000" height="58.679579" id="svg_24" stroke="#000000" stroke-width="5" width="364.130647" x="228.674981" y="297.683891"/>
+   <text fill="#000000" font-family="serif" font-size="24" font-weight="normal" id="svg_23" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="246.866667" xml:space="preserve" y="231.366669">53</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_22" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="428.866667" xml:space="preserve" y="230.366669">89</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_21" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="204.866667" xml:space="preserve" y="231.366669">150</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_20" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="388.866667" xml:space="preserve" y="232.366669">36</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_19" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="287.866667" xml:space="preserve" y="230.366669">633</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_18" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="342.866667" xml:space="preserve" y="230.366669">233</text>
+   <g id="svg_25">
+    <rect fill="#FF0000" height="58.679579" id="svg_1" stroke="#000000" stroke-width="5" width="364.130647" x="228.936025" y="51.06668"/>
+    <text fill="#000000" font-family="serif" font-size="24" font-weight="normal" id="svg_3" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="197.066681" xml:space="preserve" y="76.066681">53</text>
+    <text fill="#000000" font-family="serif" font-size="24" id="svg_4" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="238.066681" xml:space="preserve" y="76.066681">89</text>
+    <text fill="#000000" font-family="serif" font-size="24" id="svg_5" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="281.066681" xml:space="preserve" y="76.066681">150</text>
+    <text fill="#000000" font-family="serif" font-size="24" id="svg_6" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="328.066681" xml:space="preserve" y="76.066681">36</text>
+    <text fill="#000000" font-family="serif" font-size="24" id="svg_7" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="373.066681" xml:space="preserve" y="76.066681">633</text>
+    <text fill="#000000" font-family="serif" font-size="24" id="svg_8" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="427.066681" xml:space="preserve" y="76.066681">233</text>
+   </g>
+   <path d="m251.601704,97.358338c1.359515,0.814994 2.609459,1.363426 3.399215,1.551481c1.111756,0.264721 2.378847,0.781529 3.420504,1.465089c0.722425,0.474066 2.07706,1.433366 3.02464,1.687031c1.096382,0.293498 2.420369,0.186363 3.579741,0.186363c1.221387,0 2.367954,0 3.542561,0l1.19723,0l1.028453,0" fill="none" id="svg_28" stroke="#ffff00" stroke-width="5"/>
+   <path d="m312.942708,97.358338c2.218713,-1.622651 3.440319,-1.629988 4.548809,-1.629988c1.19962,0 2.507376,0.128201 3.496,-0.058685c1.267828,-0.239663 2.133439,-1.108393 3.235198,-1.563967l1.216149,-0.007337l1.124163,0" fill="none" id="svg_29" stroke="#ffff00" stroke-width="5"/>
+   <path d="m372.978584,97.358338c2.102113,0 3.262819,0 4.437426,0c1.174607,0 2.379604,-0.157077 3.610848,0.271661c0.889668,0.309789 2.159467,1.206499 3.114933,1.340942c1.254863,0.176576 2.396213,0.017385 3.565602,0.017385l1.192012,0l1.114584,0" fill="none" id="svg_30" stroke="#ffff00" stroke-width="5"/>
+   <path d="m427.793949,95.728349c2.410153,0 3.506575,-0.01833 4.808078,0.002176c1.065236,0.016788 2.150705,0.026799 3.431616,0.460735c1.119643,0.379305 2.164725,1.065713 3.243701,1.164901c1.173173,0.107856 2.406847,0.002176 3.552777,0.002176l1.147404,0l1.291227,0l1.167637,0" fill="none" id="svg_31" stroke="#ffff00" stroke-width="5"/>
+   <path d="m494.355463,97.358338c2.039262,0 3.319417,0.024138 4.270382,-0.017385c1.093435,-0.047741 2.649089,-0.330519 3.429864,-0.557461c1.178311,-0.342495 1.947655,-0.680016 3.520356,-0.916048c1.118846,-0.167921 2.129993,-0.136918 3.563889,-0.139095l1.262709,0l1.062806,0l1.188985,0" fill="none" id="svg_32" stroke="#ffff00" stroke-width="5"/>
+   <path d="m566.137489,95.728349c2.218733,0 3.440299,0 4.548789,0c1.19966,0 2.504628,-0.088879 3.543019,0.058685c1.31859,0.187383 2.322011,0.75631 3.436834,1.299643l1.050618,0.264323" fill="none" id="svg_33" stroke="#ffff00" stroke-width="5"/>
+   <text fill="#000000" font-family="serif" font-size="16" id="svg_34" stroke="#ffff00" stroke-width="0" text-anchor="middle" transform="matrix(0.731302, 0, 0, 1.62999, -199.797, -32.1714)" x="415.643181" xml:space="preserve" y="116.466675">pierwszy etap przy sortowaniu</text>
+   <text fill="#000000" font-family="serif" font-size="16" id="svg_35" stroke="#ffff00" stroke-width="0" text-anchor="middle" transform="matrix(0.780144, 0, 0, 1.62999, -63.9877, -32.1714)" x="228.895721" xml:space="preserve" y="135.466675">bierze pod uwagę cyfry jedności</text>
+   <text fill="#000000" font-family="serif" font-size="24" id="svg_36" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.30513, 0, 0, 1.62999, -3.46374, -32.1714)" x="316.433319" xml:space="preserve" y="179.466675">COUNTING SORT</text>
+   <line fill="none" id="svg_39" stroke="#ff7f00" x1="260.737598" x2="288.145281" y1="118.548186" y2="214.717496"/>
+   <line fill="none" id="svg_40" stroke="#ff7f00" x1="324.688857" x2="329.909368" y1="120.178174" y2="214.717496"/>
+   <line fill="none" id="svg_41" stroke="#ff7f00" x1="379.504222" x2="382.114478" y1="125.068139" y2="217.977473"/>
+   <line fill="none" id="svg_42" stroke="#ff7f00" x1="443.455482" x2="439.540098" y1="125.068139" y2="214.717496"/>
+   <line fill="none" id="svg_43" stroke="#ff7f00" x1="506.101613" x2="483.914441" y1="118.548186" y2="217.977473"/>
+   <line fill="none" id="svg_44" stroke="#ff7f00" x1="579.188767" x2="538.729807" y1="121.808162" y2="211.45752"/>
+  </g>
+ </g>
+</svg>
