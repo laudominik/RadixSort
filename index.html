@@ -72,6 +72,7 @@
     <section id="menu" class="sectionDiv">
       <h3>menu</h3>
       <ol>
+        <li>wprowadzenie</li>
         <li>omówienie działania algorytmu w filmiku</li>
         <li>animacja zrobiona w JavaScripcie</li>
         <li><a href="#naliczbach">wytłumaczenie "na liczbach"</a></li>
@@ -79,8 +80,30 @@
         <li><a href="#cpp">implementacja w C++</a></li>
         <li><a href="#zlobl">złożoność algorytmu</a></li>
         <li><a href="#history">historia algorytmu</a></li>
+        <li><a href="#ciekawostki">ciekawostki</a></li>
         <li><a href="#race">wyścig sortowań!</a></li>
       </ol>
+    </section>
+    <section id="wprowadzenie">
+      <h3>wprowadzenie</h3>
+      <p>Czym jest sortowanie? To zestaw czynności mający na celu poukładanie liczb w zbiorze w uporządkowany sposób. 
+        Jest wiele sortowań, po co? Każde sortowanie ma optymalne zastosowanie i inną efektywność. Efektywność, a lepiej złożoność, oceniamy na kilku płaszczyznach:
+        <ul>
+          <li>złożoność obliczeniowa, czyli liczba operacji jakie program musi wykonać, by przeprowadzić algorytm, oznaczamy ją symbolem O
+            i przedstawiamy jako zależność od wielkości zbioru liczb n stąd mamy na przykład O(n), O(n<sup>2</sup>) i tak dalej
+          </li>
+          <li>
+            złożoność pamięciowa, czyli to ile miejsca w pamięci komputer musi zarezerwować na dany algorytm
+          </li>
+          <li>
+            ogólna poprawność algorytmu - czy sortuje dobrze?
+          </li>
+        </ul>
+
+      </p>
+
+
+
     </section>
     <section id="naliczbach">
       <h3>wytłumaczenie na liczbach</h3>
@@ -216,16 +239,30 @@
           </p>
 
       </p>
-
-
-
-
-
-
     </section>
+    <section id="ciekawostki">
+          <h3>ciekawostki</h3>
+          <div>
+            <ul>
+              <li>                 
+                nie badz normikiem
+              </li>
+              <li>
+                radix(w nazwie radix sort) oznacza po prostu podstawę systemu liczbowego w przypadku systemu dwójkowego "radix" wynosi 2, a dziesiętnego 10
+              </li>
+              <li>
+                słowo radix ma swoje źródło w łacinie - korzeń
+              </li>
+              <li>
+                algorytm nie jest algorytmem in situ - algorytmy in situ to takie, które sortują tablicę wejściową, natomiast radix sort tworzy nową tablicę pomocniczą do posortowania liczb
+              </li>
 
-
-
+            </ul>
+          </div>
+          <figure>
+            <img src="root.jpeg">
+          </figure>
+    </section>
     <section id="race" class="sectionDiv">
       <h3>wyścig sortowań!</h3>
       <p>
