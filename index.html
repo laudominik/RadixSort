@@ -19,7 +19,10 @@
 
       }
 
+      .smallImage {
+        width: 20vw !important;
 
+      }
       figcaption {
         font-style: italic;
 
@@ -73,8 +76,7 @@
       <h3>menu</h3>
       <ol>
         <li><a href="#wprowadzenie">wprowadzenie</a></li>
-        <li>omówienie działania algorytmu w filmiku</li>
-        <li>animacja zrobiona w JavaScripcie</li>
+        <li><a href="#filmik">omówienie działania algorytmu w filmiku</a></li>
         <li><a href="#naliczbach">wytłumaczenie "na liczbach"</a></li>
         <li><a href="#radixWords">posortuj słowa</a></li>
         <li><a href="#cpp">implementacja w C++</a></li>
@@ -99,6 +101,12 @@
             ogólna poprawność algorytmu - czy sortuje dobrze?
           </li>
         </ul>
+        <figure>
+          <img class="smallImage" src="sort.png">
+          <figcaption>wizualizacja sortowania bąbelkowego</figcaption>
+        </figure>
+
+
         Wśród sortowań mamy kilka kolejnych podziałów:
         <ul>
           <li>stabilność - zachowanie oryginalnej kolejności elementów w tablicy</li>
@@ -109,7 +117,11 @@
 
       </p>
 
-
+    </section>     
+    <section id = "filmik">
+       <iframe width="420" height="315"
+          src="https://youtu.be/Ln-R4YGE9Yc">
+        </iframe> 
 
     </section>
     <section id="naliczbach">
@@ -132,7 +144,7 @@
       <input id="newWord" type="text"/><button onclick="addWord()">dodaj słowo</button>
     <br/>
       <button onclick="runStringRadix()">POSORTUJ</button>
-      <p>powyższy skrypt wykorzystuje implementację radix sort na całych wyrazach</p>
+      <p>powyższy skrypt wykorzystuje implementację radix sort na całych wyrazach(bez polskich znaków)</p>
     </section>
     <section id="cpp" class="sectionDiv">
       <h3>implementacja w C++</h3>
@@ -252,7 +264,8 @@
           <div>
             <ul>
               <li>                 
-                nie badz normikiem
+                dwie klasyfikacje sortowania pozycyjnego to MSD i LSD, MSD - most significant digit, czyli takie sortowanie, które 
+                rozpoczyna od najbardziej znaczącej cyfry i LSD - least significant digit, takie jak u nas, sortujące od najmniej znaczącej cyfry
               </li>
               <li>
                 radix(w nazwie radix sort) oznacza po prostu podstawę systemu liczbowego w przypadku systemu dwójkowego "radix" wynosi 2, a dziesiętnego 10
@@ -261,9 +274,9 @@
                 słowo radix ma swoje źródło w łacinie - korzeń(po angielsku root)
               </li>
               <li>
-                algorytm nie jest algorytmem in situ - algorytmy in situ to takie, które sortują tablicę wejściową, natomiast radix sort tworzy nową tablicę pomocniczą do posortowania liczb
+                algorytm nie jest algorytmem in situ - algorytmy in situ to takie, które sortują tablicę wejściową, natomiast radix sort tworzy nową tablicę pomocniczą do posortowania liczb; mimo wszystko istnieją warianty radix sort, które wykorzystują algorytmy in-situ
               </li>
-
+              
             </ul>
           </div>
           <figure>

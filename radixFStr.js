@@ -153,13 +153,14 @@ function radix(arr) {
 
 function runStringRadix() {
   let words = document.getElementById("wordBox").innerHTML;
-  words = radix(words.split(" ").map((word) => word.trim()));
+  words = radix(
+    words.split(" ").map((word) => word.trim().toLocaleLowerCase())
+  );
   document.getElementById("wordBox").innerHTML = words.join(" ");
 }
 
 function addWord() {
   let inputWord = document.getElementById("newWord").value;
-  console.log(inputWord);
   document.getElementById("wordBox").innerHTML += ` ${inputWord}`;
 }
 
