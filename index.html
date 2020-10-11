@@ -86,7 +86,7 @@
         <li><a href="#race">wyścig sortowań!</a></li>
       </ol>
     </section>
-    <section id="wprowadzenie">
+    <section id="wprowadzenie" class="sectionDiv">
       <h3>wprowadzenie</h3>
       <p>Czym jest sortowanie? To zestaw czynności mający na celu poukładanie liczb w zbiorze w uporządkowany sposób. 
         Jest wiele sortowań, po co? Każde sortowanie ma optymalne zastosowanie i inną efektywność. Efektywność, a lepiej złożoność, oceniamy na kilku płaszczyznach:
@@ -118,14 +118,14 @@
       </p>
 
     </section>     
-    <section id = "filmik">
+    <section id = "filmik" class="sectionDiv">
       <h3>filmik prezentujący algorytm</h3>
        <iframe width="420" height="315"
           src="https://youtu.be/Ln-R4YGE9Yc">
         </iframe> 
 
     </section>
-    <section id="naliczbach">
+    <section id="naliczbach" class="sectionDiv">
       <h3>wytłumaczenie na liczbach</h3>
       <p>jako podsumowanie filmiku przygotowałem mały schemat działania algorytmu</p>
       <svg>       
@@ -140,8 +140,8 @@
 
     </section>
     <section id="radixWords" class="sectionDiv">
-      <h3>posortuj słowa</h3>
-      <div id="wordBox"> zxba zxce hjki grzyb kek ab abg</div>
+      <h3>posortuj słowa (bez polskich znaków)</h3>
+      <div id="wordBox"> zxba pomidor kotlet grzyb japko</div>
       <input id="newWord" type="text"/><button onclick="addWord()">dodaj słowo</button>
     <br/>
       <button onclick="runStringRadix()">POSORTUJ</button>
@@ -220,7 +220,7 @@
       >
     </section>
     <section id="zlobl" class="sectionDiv">
-      <h3>złożoność obliczeniowa algorytmu  &#949;</h3>
+      <h3>złożoność obliczeniowa algorytmu </h3>
       <p><div><b>założenie:</b> tablica n elementów (liczb naturalnych, wyrazów itd.), gdzie najdłuższa liczba ma d cyfr</div>
         <p>by znaleźć złożoność algorytmu pozycyjnego, pierw musimy przeanalizować algorytm sortujący pomocniczy, 
           u nas jest to sortowanie przez zliczanie</p>
